@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b295d;
+}
+
+header h1 {
+  font-size: 40px;
+  color: #224f34;
+  font: elephant;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    font-size: 22px;
+    font: poppins;
+}
+
+nav a {
+  width: 200px;
+  padding: 0px;
+  color: white;
+
+}
+.kat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+      border: solid 4px violet;
+    color: white;
+  font-size: 22px;
+  padding: 8px 8px;
+  border-radius: 25px;
+  background: none;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px;
+  background-color: #1b295d;
+
+}
+
+.hero-text {
+  width: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-text img{
+    width: 700px;
+    height: 500px
+}
+.hero-text h1 {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+.loginn-btn {
+    color: white;
+    width: 200px;
+  font-size: 22px;
+  padding: 8px 8px;
+  border-radius: 25px;
+  background-color: blue;
+  cursor: pointer;
+}
+
